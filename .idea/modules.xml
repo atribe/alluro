@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alluro.iml" filepath="$PROJECT_DIR$/.idea/modules/alluro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alluro-root.iml" filepath="$PROJECT_DIR$/.idea/modules/alluro-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alluro-root_main.iml" filepath="$PROJECT_DIR$/.idea/modules/alluro-root_main.iml" group="alluro-root" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alluro-root_test.iml" filepath="$PROJECT_DIR$/.idea/modules/alluro-root_test.iml" group="alluro-root" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dependenciestoplantuml-alluro_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dependenciestoplantuml-alluro_main.iml" group="alluro" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dependenciestoplantuml-alluro_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dependenciestoplantuml-alluro_test.iml" group="alluro" />
+    </modules>
+  </component>
+</project>

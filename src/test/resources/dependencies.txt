@@ -1,0 +1,11 @@
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+compile - Dependencies for source set 'main' (deprecated, use 'implementation ' instead).
+\--- com.fasterxml.jackson.core:jackson-databind:2.9.4
+     +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     \--- com.fasterxml.jackson.core:jackson-core:2.9.4
+
+A web-based, searchable dependency report is available by adding the --scan option.

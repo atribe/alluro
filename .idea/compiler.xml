@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alluro-root_main" target="1.8" />
+      <module name="alluro-root_test" target="1.8" />
+      <module name="alluro_main" target="1.8" />
+      <module name="alluro_test" target="1.8" />
+      <module name="alluroRoot_main" target="1.8" />
+      <module name="alluroRoot_test" target="1.8" />
+      <module name="buildSrc_main" target="1.8" />
+      <module name="buildSrc_test" target="1.8" />
+      <module name="dependenciestoplantuml-alluro_main" target="1.8" />
+      <module name="dependenciestoplantuml-alluro_test" target="1.8" />
+      <module name="dependenciestoplantuml_main" target="1.8" />
+      <module name="dependenciestoplantuml_main~1" target="1.8" />
+      <module name="dependenciestoplantuml_test" target="1.8" />
+      <module name="dependenciestoplantuml_test~1" target="1.8" />
+      <module name="dependenciestoplantumlTestProject_main" target="1.8" />
+      <module name="dependenciestoplantumlTestProject_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

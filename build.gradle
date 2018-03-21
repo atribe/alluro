@@ -1,0 +1,53 @@
+group 'org.tribe3k'
+version '1.0.0'
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "com.gradle.publish:plugin-publish-plugin:0.9.10"
+    }
+}
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: "com.gradle.plugin-publish"
+
+sourceCompatibility = 1.8
+
+repositories {
+        jcenter()
+}
+
+dependencies {
+    compile localGroovy()
+    compile gradleApi()
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+//apply plugin: 'com.tribe3k.alluro'
+//
+//plantUMLGeneration {
+//    desiredContext = 'compile'
+//}
+
+pluginBundle {
+    website = 'https://github.com/atribe/alluro'
+    vcsUrl = 'https://github.com/atribe/alluro'
+    description = 'Gradle plugin to generate PlantUML directly from the Gradle Dependencies task.'
+    tags = ['plantuml', 'dependencies']
+
+    plugins {
+        alluro {
+            id = 'com.tribe3k.alluro'
+            displayName = 'Alluro - PlantUML Generation for Dependencies'
+        }
+    }
+}
+
+
+
